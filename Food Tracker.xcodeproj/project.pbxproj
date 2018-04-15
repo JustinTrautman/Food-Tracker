@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D015BB292077DBB200BD183C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015BB282077DBB200BD183C /* Meal.swift */; };
+		D04C09BB2077EF5400616739 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C09BA2077EF5400616739 /* MealTableViewCell.swift */; };
+		D04C09BD2077F82400616739 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C09BC2077F82400616739 /* MealTableViewController.swift */; };
+		D05677B72075BC7B004C9D90 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05677B62075BC7B004C9D90 /* RatingControl.swift */; };
 		D083250620558FFD007A5FC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D083250520558FFD007A5FC7 /* AppDelegate.swift */; };
-		D083250820558FFD007A5FC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D083250720558FFD007A5FC7 /* ViewController.swift */; };
+		D083250820558FFD007A5FC7 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D083250720558FFD007A5FC7 /* MealViewController.swift */; };
 		D083250B20558FFD007A5FC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D083250920558FFD007A5FC7 /* Main.storyboard */; };
 		D083250D20558FFD007A5FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D083250C20558FFD007A5FC7 /* Assets.xcassets */; };
 		D083251020558FFD007A5FC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D083250E20558FFD007A5FC7 /* LaunchScreen.storyboard */; };
@@ -26,9 +30,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D015BB282077DBB200BD183C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		D04C09BA2077EF5400616739 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		D04C09BC2077F82400616739 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		D05677B62075BC7B004C9D90 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		D083250220558FFD007A5FC7 /* Food Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D083250520558FFD007A5FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D083250720558FFD007A5FC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D083250720558FFD007A5FC7 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		D083250A20558FFD007A5FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D083250C20558FFD007A5FC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D083250F20558FFD007A5FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,8 +86,12 @@
 			isa = PBXGroup;
 			children = (
 				D083250520558FFD007A5FC7 /* AppDelegate.swift */,
-				D083250720558FFD007A5FC7 /* ViewController.swift */,
+				D083250720558FFD007A5FC7 /* MealViewController.swift */,
 				D083250920558FFD007A5FC7 /* Main.storyboard */,
+				D04C09BC2077F82400616739 /* MealTableViewController.swift */,
+				D04C09BA2077EF5400616739 /* MealTableViewCell.swift */,
+				D015BB282077DBB200BD183C /* Meal.swift */,
+				D05677B62075BC7B004C9D90 /* RatingControl.swift */,
 				D083250C20558FFD007A5FC7 /* Assets.xcassets */,
 				D083250E20558FFD007A5FC7 /* LaunchScreen.storyboard */,
 				D083251120558FFD007A5FC7 /* Info.plist */,
@@ -141,7 +153,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Justin Trautman";
 				TargetAttributes = {
 					D083250120558FFC007A5FC7 = {
@@ -199,8 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D083250820558FFD007A5FC7 /* ViewController.swift in Sources */,
+				D015BB292077DBB200BD183C /* Meal.swift in Sources */,
+				D083250820558FFD007A5FC7 /* MealViewController.swift in Sources */,
+				D05677B72075BC7B004C9D90 /* RatingControl.swift in Sources */,
 				D083250620558FFD007A5FC7 /* AppDelegate.swift in Sources */,
+				D04C09BD2077F82400616739 /* MealTableViewController.swift in Sources */,
+				D04C09BB2077EF5400616739 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +272,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -263,6 +280,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -313,6 +331,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -320,6 +339,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
