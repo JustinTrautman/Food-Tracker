@@ -1,6 +1,5 @@
 # Food-Tracker
 # Developer: Justin Trautman
-# Justin.trautman@gmail.com
 
 Devmountain Food Tracker Submission
 
